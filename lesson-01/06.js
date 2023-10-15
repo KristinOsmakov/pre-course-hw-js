@@ -1,7 +1,3 @@
 let str = "zzzzyzz";
-if (str.includes('y')) {
-    console.log("нашел");
-}
-else {
-    console.log("заблудился");
-}
+let a = str.includes('y') ? "нашел" : "заблудился";
+console.log(a);
