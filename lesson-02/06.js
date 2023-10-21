@@ -6,10 +6,7 @@ let passportWithAddress = {
         city: "LA"
     }
 };
-let a = {};
-for (let key in passportWithAddress) {
-    a[key] = passportWithAddress[key];
-}
-a.city = "Bobryisk";
-console.log(passportWithAddress.address.city);
-console.log(a.city);
+let a = structuredClone(passportWithAddress);
+a.address.city = "Bobryisk";
+console.log(passportWithAddress);
+console.log(a);
