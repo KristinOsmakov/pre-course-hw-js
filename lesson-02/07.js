@@ -6,8 +6,8 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-passportMarried = {address: {...passportMarried}, ...passportMarried};
-let passportMarried2 = {address: {...passportMarried.address}, married: true, ...passportMarried};
 
-console.log(passportMarried);
-console.log(passportMarried2);
+let passportMarried2 = {... passportMarried, married: true, };
+
+console.log(passportMarried.name);
+console.log(passportMarried2.name);
