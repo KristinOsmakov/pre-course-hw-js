@@ -8,7 +8,7 @@ let passportMarried = {
 };
 let passportMarried2 = {}
 const PM = () => {
-    passportMarried2 = {name: passportMarried.name, surname: passportMarried.surname, married: true, address: passportMarried.address}
+    passportMarried2 = {...passportMarried, married: true, address: passportMarried.address}
 }
 PM()
 console.log(passportMarried);
