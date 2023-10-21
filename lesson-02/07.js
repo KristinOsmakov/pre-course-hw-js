@@ -6,8 +6,10 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-
-let passportMarried2 = {... passportMarried, married: true, };
-
-console.log(passportMarried.name);
-console.log(passportMarried2.name);
+let passportMarried2 = {}
+const PM = () => {
+    passportMarried2 = {...passportMarried, married: true}
+}
+PM()
+console.log(passportMarried);
+console.log(passportMarried2);
