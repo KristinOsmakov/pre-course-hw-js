@@ -6,10 +6,6 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-let passportMarried2 = {}
-const PM = () => {
-    passportMarried2 = {...passportMarried, married: true, address: passportMarried.address}
-}
-PM()
+const passportMarried2 = {...passportMarried, married:true, address:{...passportMarried.address}};
 console.log(passportMarried);
 console.log(passportMarried2);
