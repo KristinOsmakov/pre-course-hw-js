@@ -26,5 +26,5 @@ const newObj = {
 }
 
 
-const users3 = {...users2, newObj};
-console.log(users3);
+users2.push(newObj);
+console.log(users2);
