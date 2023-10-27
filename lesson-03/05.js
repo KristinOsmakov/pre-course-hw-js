@@ -25,6 +25,3 @@ const newObj = {
     address: 'Unknown'
 }
 
-
-const users3 = {...users2, newObj};
-console.log(users3);
