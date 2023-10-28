@@ -1,5 +1,8 @@
 const numbers = [
     [1, 2, 3, 4, 5],
-    [11, 20, 33, 40, 55],
-    [111, 200, 333, 400, 555],
+    [10, 20, 30, 40, 50],
+    [100, 200, 300, 400, 500],
 ];
+
+const newNumbers = numbers.map(el => el.filter(num => num % 2 === 0));
+console.log(newNumbers);
