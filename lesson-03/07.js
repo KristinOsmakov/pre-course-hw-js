@@ -4,6 +4,5 @@ const numbers = [
     [100, 200, 300, 400, 500],
 ];
 
-const newNumbers = numbers.map(row => row.filter(num => num % 2 === 0));
-
-
+const result = numbers.map(row => row.filter(num => num % 2 === 0));
+console.log(result);
