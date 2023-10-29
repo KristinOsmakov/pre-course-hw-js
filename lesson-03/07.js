@@ -1,8 +1,9 @@
 const numbers = [
     [1, 2, 3, 4, 5],
-    [10, 20, 30, 40, 50],
-    [100, 200, 300, 400, 500],
+    [11, 20, 33, 40, 55],
+    [111, 200, 333, 400, 555],
 ];
 
-console.log(numbers.map(row => row.filter(num => num % 2 === 0)));
+
+console.log(numbers.map(row => row.filter(el => el % 2 === 0)));
 
