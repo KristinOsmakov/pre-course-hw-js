@@ -5,5 +5,5 @@ function createColorString() {
     return newColors.join("-");
 }
 
-console.log(createColorString());
+console.log(createColorString(1));
 
